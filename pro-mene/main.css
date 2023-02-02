@@ -1,0 +1,17 @@
+.Olga
+{
+    background-color: rgb(220, 220, 220);
+    height: 700px;
+   
+}
+.container1
+{
+height: 125px;
+}
+.olgaimg
+{
+    background: url('../img/images.jpg') center center/cover no-repeat;
+    height: 450px;
+    width: auto;
+    margin-top: 120px;
+}

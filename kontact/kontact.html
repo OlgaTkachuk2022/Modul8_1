@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    {% extends parent.html %}
+    {% block content %}
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    {% endblock %}
+  </head>
+
+  <body>
+    <section>
+      <h2 class="modal__title">Залиште свої данні</h2>
+      <form name="modal-form" autocomplete="on">
+        <label class="modal-form__label">
+          <span class="modal-form__span">Им'я</span>
+          <div class="modal-form__conteiner">
+            <input type="text" name="username" class="modal-form__input" />
+          </div>
+        </label>
+
+        <label class="modal-form__label">
+          <span class="modal-form__span">Телефон</span>
+
+          <div class="modal-form__conteiner">
+            <input type="tel" name="tel" class="modal-form__input" />
+          </div>
+        </label>
+
+        <label class="modal-form__label">
+          <span class="modal-form__span">Пошта</span>
+          <div class="modal-form__conteiner">
+            <input type="email" name="email" class="modal-form__input" />
+          </div>
+        </label>
+
+        <button type="submit" class="submit-btn btn-main">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
